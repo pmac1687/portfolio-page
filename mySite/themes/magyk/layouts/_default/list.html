@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+{{ partial "header.html" . }}
+{{ partial "head.html" . }}
+<body>
+    <h1 class="blogList">Posts</h1>
+    {{- range first 10 .Data.Pages }}
+        <h4 class="blogList"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    {{- end }}
+    <h4><a href="{{ .Site.BaseURL }}">Home</a></h4>
+    {{ partial "footer.html" . }}
+</body>
+</html>

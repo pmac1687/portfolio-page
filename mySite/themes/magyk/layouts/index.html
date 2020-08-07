@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+    <p>hugo says hello</p>
+    <!-- this ranges through dirs/files in site content
+    folder and displays as list, range iterates,permalink is page url
+    for nav--> 
+    {{- range first 10 .Data.Pages }}
+        <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    {{- end }}
+{{ partial "footer.html" . }}

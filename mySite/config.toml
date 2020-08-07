@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = 'magyk'
+
+[[menu.main]]
+    url = "/about"
+    name = "About Us"
+    weight = 100
+[[menu.main]]
+    url = "/_Services"
+    name = "Services"
+    weight = 30
+[[menu.services]]
+    name = 'Databases'
+

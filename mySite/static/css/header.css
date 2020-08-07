@@ -1,0 +1,114 @@
+.pics {
+    margin-top: 50px;
+}
+.picContainer {
+    background-image: linear-gradient(rgb(0, 153, 255), coral);
+    height: 600px;
+    padding: 0px;
+    margin-top: -85px;
+    text-align: center;
+}
+.headerPic {
+    transform: translate(0px,-1000px) scale(.025) ;
+}
+.title {
+    margin-left: 25px;
+    padding-top: 450px;
+}
+.homeTitle {
+    text-align: center;
+}
+.homeP {
+    text-align: center;
+}
+.homeContainer {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.homeImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutContainer {
+    text-align: center;
+}
+.servicesContainer {
+    display: flex;
+    margin-top: -95px;
+}
+.servicesContent {
+    margin-left: 300px;
+    width: 500px;
+}
+.servicesMenu {
+    background-color: cornflowerblue;
+    width: 250px; 
+    margin-top: 10px; 
+}
+.menuBtn {
+    width: 250px;
+    background-color: cornflowerblue;
+    height: 50px;
+    margin-top: 20px;
+}
+.headerBar {
+    background-color: coral;
+    height: 80px;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    padding-top: 0px;
+    align-items: center;
+    border: 30px;
+    position: fixed;
+    top: 0px;
+}
+.headerLinks {
+    transform: translate(0px,20px);
+    padding: 10px;
+    align-items: center;
+    border-radius: 4px; 
+}
+.blogList {
+    text-align: center;
+}
+.blogSingle {
+    margin-left: 50px;
+}
+.dd-contentsData {
+    width: 250px;
+    display: none;
+}
+.dropdownData:hover .dd-contentsData {
+    display: block;
+}
+.dd-contentsApp {
+    width: 250px;
+    display: none;
+}
+.dropdownApp:hover .dd-contentsApp {
+    display: block;
+}
+.dd-contentsAnalytics {
+    width: 250px;
+    display: none;
+}
+.dropdownAnalytics:hover .dd-contentsAnalytics {
+    display: block;
+}
+.dd-contentsAutomation {
+    width: 250px;
+    display: none;
+}
+.dropdownAutomation:hover .dd-contentsAutomation   {
+    display: block;
+}
+#topBtn {
+    margin-top: 100px;
+}
+#icons {
+    transform: scale(3);
+    margin: 20px;
+}

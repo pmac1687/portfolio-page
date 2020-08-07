@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{{ .Site.BaseURL }}js/code.js"></script>
+    <script src="https://kit.fontawesome.com/66977525a5.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='/css/header.css'>
+    <link rel='stylesheet' href='/css/portfolio.css'>
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    <header id='header'>
+        <div id='nav-link'>
+            <a>link</a>
+        </div>
+        <div  id='nav-link'>
+            <a>link</a>
+        </div>
+        <div id='nav-link'>
+            <a>link</a>
+        </div>
+        <div id='nav-link'>
+            <a>link</a>
+        </div>
+    </header>
+    <div class="body"> 
+        <div class='sideBar'>
+            <h1>me</h1>
+            <img src='./images/my_pic.jpeg' alt='not found'>
+
+        </div>
+        <div class="projects">
+            <div id="left" class="postIt">
+                <h1>hangman</h1>
+            </div>
+            <div id="right" class="postIt">
+                <h1>django-react-blog</h1>
+            </div>
+            <div id="left" class="postIt">
+                <h1>etch-a-sketch</h1>
+                <i id='images' class="fab fa-react"></i>
+            </div>
+            <div id='right' class="postIt">
+                <h1>browser dream board</h1>
+            </div>
+            <div id='right' class="postIt">
+                <h1>calcultor</h1>
+            </div>
+            <div id="left" class="postIt">
+                <h1>todo app</h1>
+            </div>
+            <div id="right" class="postIt">
+                <h1>google clone</h1>
+            </div>
+            <div id="left" class="postIt">
+                <h1>asteroids</h1>
+            </div>
+            <div id='right' class="postIt">
+                <h1>tetris clone</h1>
+            </div>
+        </div>
+        <div>
+            <h1 style="margin-top: 200px;">hello</h1>
+            <i class="fab fa-github" style="transform: scale(9);margin: 60px;"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-js-square"></i>
+            <i class="fas fa-file-code"></i>
+            <i class="fab fa-html5"></i>
+            <i class="fas fa-bug"></i>
+            <i class="fab fa-codepen"></i>
+            <i class="fab fa-free-code-camp"></i>
+            <i class="fas fa-code-branch"></i>
+            <i class="fab fa-node"></i>
+        </div>
+    </div>
+</body>
+
+{{ partial "footer.html" . }}
